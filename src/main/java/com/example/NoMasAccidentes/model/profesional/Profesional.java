@@ -22,7 +22,7 @@ import org.hibernate.annotations.SQLRestriction;
 
 /**
  * Profesional de prevención de riesgos. Asociado 1-a-1 con un Usuario del sistema.
- * RF03 (gestión de profesionales) y RF13–RF17 (visitas con geolocalización).
+ * Ggestión de profesionales
  */
 @Entity
 @Table(name = "profesional")

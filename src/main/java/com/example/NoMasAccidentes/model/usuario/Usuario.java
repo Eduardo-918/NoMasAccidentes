@@ -21,7 +21,7 @@ import org.hibernate.annotations.SQLRestriction;
 
 /**
  * Usuario del sistema con credenciales para iniciar sesión.
- * RF01–RF02: autenticación.
+ * Autenticación.
  * Soft delete: al "eliminar" un usuario solo se marca activo=false (RNF14, trazabilidad).
  */
 @Entity

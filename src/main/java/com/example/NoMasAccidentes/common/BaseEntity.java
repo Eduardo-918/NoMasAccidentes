@@ -14,7 +14,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 /**
  * SuperClase comun con campos de auditoria heredados por todas las entidades.
- * (trazabilidad historica)
+ * Trazabilidad historica
  */
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)

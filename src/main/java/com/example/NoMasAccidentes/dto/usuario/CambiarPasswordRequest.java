@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Size;
 
 /**
  * Cuerpo del PATCH /api/usuarios/{id}/password.
- * Requiere la contraseña actual para confirmar la identidad (RF02 — RNF07).
+ * Requiere la contraseña actual para confirmar la identidad.
  */
 public record CambiarPasswordRequest(
 
