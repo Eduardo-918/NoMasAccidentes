@@ -14,7 +14,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 /**
  * SuperClase comun con campos de auditoria heredados por todas las entidades.
- * (trazabilidad historica)
+ * Trazabilidad historica
  */
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
@@ -22,7 +22,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @Setter
 public abstract class BaseEntity {
     @CreatedDate
-    @Column(name = "fecha_creacio", updatable = false)
+    @Column(name = "fecha_creacion", updatable = false)
     private LocalDateTime fechaCreacion;
 
     @LastModifiedDate

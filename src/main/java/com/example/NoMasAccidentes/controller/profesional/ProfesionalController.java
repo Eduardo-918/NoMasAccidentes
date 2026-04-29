@@ -25,7 +25,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * CRUD de profesionales de prevención de riesgos.
- * RF03 (mantención) y soporte para RF13–RF17 (visitas con geolocalización).
  */
 @RestController
 @RequestMapping("/api/profesionales")

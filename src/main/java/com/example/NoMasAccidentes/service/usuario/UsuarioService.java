@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Gestión de usuarios del sistema.
- * RF01 (alta y mantención de usuarios) y RF02 (gestión de credenciales).
+ * Alta y mantención de usuarios y gestión de credenciales.
  */
 @Service
 @RequiredArgsConstructor

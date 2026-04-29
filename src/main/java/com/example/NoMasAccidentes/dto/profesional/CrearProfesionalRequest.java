@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Size;
 
 /**
  * Cuerpo del POST /api/profesionales.
- * RF03 — registro de profesionales de prevención de riesgos.
+ * Registro de profesionales de prevención de riesgos.
  * El profesional debe estar asociado a un Usuario existente con rol PROFESIONAL.
  */
 public record CrearProfesionalRequest(

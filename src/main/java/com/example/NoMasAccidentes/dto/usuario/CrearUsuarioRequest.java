@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Size;
 
 /**
  * Cuerpo del POST /api/usuarios.
- * RF01 — alta de usuarios del sistema.
+ * Alta de usuarios del sistema.
  */
 public record CrearUsuarioRequest(
 

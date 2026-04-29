@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * CRUD de usuarios del sistema.
- * RF01 (gestión de usuarios) y RF02 (gestión de credenciales).
+ * Gestión de usuarios y gestión de credenciales.
  */
 @RestController
 @RequestMapping("/api/usuarios")

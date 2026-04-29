@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Gestión de profesionales de prevención de riesgos.
- * RF03 (mantención de profesionales) y soporte para RF13–RF17 (visitas con geolocalización).
+ * Mmantención de profesionales y soporte para visitas.
  */
 @Service
 @RequiredArgsConstructor
