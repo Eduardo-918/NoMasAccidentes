@@ -24,7 +24,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 /**
  * Configuración central de seguridad: JWT stateless, bcrypt para contraseñas,
  * autorización por rol con @PreAuthorize y CORS según perfil.
- * RNF06–RNF08 (autenticación, autorización y protección de credenciales).
  */
 @Configuration
 @EnableMethodSecurity
@@ -71,7 +70,7 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
-    /** bcrypt con strength 12 (RNF07 — protección de credenciales). */
+    /** bcrypt con strength 12 . */
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder(12);
