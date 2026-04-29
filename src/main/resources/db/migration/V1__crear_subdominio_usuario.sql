@@ -1,5 +1,5 @@
 -- =====================================================
--- V1: subdominio usuario (RF01–RF05)
+-- V1: subdominio usuario 
 -- Tablas: rol, usuario, profesional
 -- =====================================================
 
